@@ -61,6 +61,29 @@
     a {
       color: var(--accent-color);
     }
+
+    .preview-card {
+      background-color: #1e1e1e;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+
+    .preview-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .preview-card h3 {
+      margin-top: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .preview-card p {
+      color: #ccc;
+    }
   </style>
 </head>
 <body>
@@ -82,22 +105,33 @@
     </p>
   </section>
 
-<section id="writing">
-  <h2>Writing</h2>
-  <div style="background-color: #1e1e1e; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-    <a href="https://www.salesforce.com/blog/ethical-hacking-practices-build-trust/" target="_blank" style="color: inherit; text-decoration: none;">
-      <img src="https://a.sfdcstatic.com/shared/images/blog/wp-content/uploads/sites/2/2023/10/ethical-hacking-featured.jpg" alt="Ethical Hacking Practices" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 6px;" />
-      <h3 style="margin-top: 0.75rem;">Ethical Hacking Practices Help Build Trust in AI</h3>
-      <p style="color: #ccc;">How red teaming and bug bounty programs help build trust in AI development at Salesforce.</p>
-    </a>
-  </div>
-</section>
+  <section id="writing">
+    <h2>Writing</h2>
+
+    <div class="preview-card">
+      <a href="https://www.salesforce.com/blog/ethical-hacking-practices-build-trust/" target="_blank">
+        <img src="https://a.sfdcstatic.com/shared/images/blog/wp-content/uploads/sites/2/2023/10/ethical-hacking-featured.jpg" alt="Ethical Hacking Practices">
+        <h3>Ethical Hacking Practices Help Build Trust in AI</h3>
+        <p>How red teaming and bug bounty programs help build trust in AI development at Salesforce.</p>
+      </a>
+    </div>
+
+    <div class="preview-card">
+      <a href="https://www.axios.com/2023/02/14/salesforce-adds-gender-options" target="_blank">
+        <img src="https://images.axios.com/n2-ZRu8ciBKrWa4eZVuFAN19zYc=/0x135:2400x1485/1920x1080/2023/02/14/1676395197541.jpg" alt="Salesforce Adds Gender Options">
+        <h3>Salesforce Adds Gender Options for Users</h3>
+        <p>Salesforce broadens gender identification options to better reflect user identity.</p>
+      </a>
+    </div>
+
+  </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>Let's connect:</p>
     <ul>
-      <li><a href="https://www.linkedin.com/in/olugo10/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.linkedin.com/in/orlandolugo/" target="_blank">LinkedIn</a></li>
+      <li><a href="mailto:orlando@orlandolugo.com">Email</a></li>
     </ul>
   </section>
 
